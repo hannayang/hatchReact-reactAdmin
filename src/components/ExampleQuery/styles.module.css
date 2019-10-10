@@ -1,0 +1,14 @@
+.starships {
+  padding-left: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-auto-rows: minmax(240px, auto);
+  grid-auto-flow: dense;
+  grid-gap: 36px;
+}
+
+.starship {
+  padding: var(--gutter5) var(--gutter10);
+  border: 1px solid var(--colorGrey5);
+}

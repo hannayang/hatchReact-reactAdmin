@@ -1,0 +1,24 @@
+:root {
+  --gutter5: 0.5rem;
+  --gutter10: 1rem;
+  --gutter15: 1.5rem;
+  --gutter20: 2rem;
+  --gutter40: 4rem;
+  --gutter80: 8rem;
+
+  --colorGrey1: #fafafa;
+  --colorGrey3: #e0e0e0;
+  --colorGrey5: #9e9e9e;
+  --colorGrey7: #616161;
+  --colorGrey9: #212121;
+
+  --fontPrimary: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --fontSize10: 1rem;
+  --fontSize12: 1.2rem;
+  --fontSize14: 1.4rem;
+  --fontSize16: 1.6rem;
+  --fontSize18: 1.8rem;
+  --fontSize21: 2.1rem;
+  --fontSize28: 2.8rem;
+}

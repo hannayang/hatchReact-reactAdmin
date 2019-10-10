@@ -1,0 +1,55 @@
+.counter {
+  --size: 4rem;
+
+  text-align: center;
+}
+
+.title {
+  margin: 0 0 2rem 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  background: var(--colorGrey1);
+  min-width: calc(var(--size) * 2);
+  height: var(--size);
+  color: var(--colorGrey7);
+  line-height: var(--size);
+  vertical-align: middle;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  flex: 0 0 var(--size);
+  max-width: var(--size);
+  height: var(--size);
+  color: var(--colorGrey7);
+  background-color: var(--colorGrey3);
+  font-family: var(--fontPrimary);
+  line-height: var(--size);
+}
+
+.button:hover {
+  background-color: var(--colorGrey5);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.button:last-child {
+  border-radius: 0 4px 4px 0;
+}

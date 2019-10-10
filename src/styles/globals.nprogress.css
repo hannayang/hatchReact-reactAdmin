@@ -1,0 +1,6 @@
+@import "~nprogress/nprogress.css";
+
+:global(#nprogress .bar) {
+  height: 0.4rem;
+  background: #61DAFB;
+}

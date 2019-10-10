@@ -1,0 +1,5 @@
+.footer {
+  padding: var(--gutter20) 0;
+  text-align: center;
+  border-top: solid 0.1rem var(--colorGrey1);
+}

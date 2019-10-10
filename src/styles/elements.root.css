@@ -1,0 +1,11 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  color: var(--colorGrey5);
+  background-color: #fff;
+  font-family: var(--fontPrimary);
+  font-size: var(--fontSize18);
+  line-height: 1.5;
+}

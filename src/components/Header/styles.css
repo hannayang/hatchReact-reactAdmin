@@ -1,0 +1,41 @@
+.header {
+  padding: var(--gutter20) 0;
+  background-color: var(--colorGrey9);
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto var(--gutter5) auto;
+}
+
+.title {
+  margin: 0 0 var(--gutter5) 0;
+  padding: 0;
+  color: #fff;
+}
+
+.subTitle {
+  margin: 0;
+  padding: 0;
+  color: var(--colorGrey5);
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--gutter15);
+}
+
+.navItem {
+  margin: 0 var(--gutter10);
+  color: var(--colorGrey1);
+  text-decoration: none;
+}
+
+.navItem.isActive {
+  text-decoration: underline;
+}
